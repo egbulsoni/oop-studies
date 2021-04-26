@@ -6,12 +6,12 @@ public class Retangulo
     private float Altura { get; set; }
     // a propriedade cor foi deliberadamente adicionado pelo estudante
     private string Cor { get; set; }
-    
-    
-
+    // tomei a liberdade de settar os atributos aqui
     public Retangulo()
     {
-        
+        Altura = 10;
+        Base = 10;
+        Cor = "dourado++";
     }
     public Retangulo(string cor, float baseRetangulo, float alturaRetangulo)
     {

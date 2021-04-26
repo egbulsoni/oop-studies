@@ -1,5 +1,5 @@
 using System;
-public class Retangulo
+public class Retangulo : Forma2D
 {
     // não consegui implementar sem o get nas props
     private float Base { get; set; }
@@ -20,12 +20,12 @@ public class Retangulo
         Altura = alturaRetangulo;
     }
 
-    public string toString()
+    public override string toString()
     {
         return $"o retângulo possui - base: {this.Base} e altura: {this.Altura}";      
     }
 
-    public float calcularArea()
+    public override float calcularArea()
     {
         return Base * Altura;
     }

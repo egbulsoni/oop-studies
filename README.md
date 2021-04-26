@@ -1,0 +1,2 @@
+# poo-studies
+csharp mostly

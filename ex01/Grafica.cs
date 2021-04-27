@@ -2,7 +2,6 @@ using System;
 
 public class Grafica
 {
-    public void main(String[] args)
     public void show(Forma2D figura)
     {
         // deveria implementar o método show aqui, não sei como...

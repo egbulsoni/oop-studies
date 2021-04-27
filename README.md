@@ -1,2 +1,2 @@
-# poo-studies
+# oop-studies
 csharp mostly

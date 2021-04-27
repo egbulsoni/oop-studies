@@ -11,6 +11,7 @@ public class Circulo : Forma2D
     
     public Circulo()
     {
+        Cor = "azul";
         Raio = 10;
         Diametro = 10;
     }

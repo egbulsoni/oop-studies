@@ -1,14 +1,16 @@
-
-public class Caminhão : Veiculo
+namespace ex04
 {
-    public int Capacidade { get; set; }
-    public Caminhão(string nome, string marca, float preço, int capacidade)
+    public class Caminhão : Veiculo
     {
-        Capacidade = capacidade;
-        Nome = nome;
-        Marca = marca;
-        Preço = preço;
+        public int Capacidade { get; set; }
+        public Caminhão(string nome, string marca, float preço, int capacidade)
+        {            
+            Capacidade = capacidade;
+            Nome = nome;
+            Marca = marca;
+            Preço = preço;
+        }
+        
+        
     }
-
-
 }

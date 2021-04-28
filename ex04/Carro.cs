@@ -1,18 +1,21 @@
 using System;
-public class Carro : Veiculo
+namespace ex04
 {
-    public int Lugares { get; set; }
-
-    public Carro(string marca, float preço, int lugares)
+    public class Carro : Veiculo
     {
-        Marca = marca;
-        Preço = preço;
-        Lugares = lugares;
-    }
+        public int Lugares { get; set; }
 
-    public void Mostrar()
-    {
-        Console.WriteLine("Carro");
+        public Carro(string marca, float preço, int lugares)
+        {
+            Marca = marca;
+            Preço = preço;
+            Lugares = lugares;
+        }
+        
+        public void Mostrar()
+        {
+            Console.WriteLine("Carro");
+        }
+        
     }
-
 }

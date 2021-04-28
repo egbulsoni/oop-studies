@@ -1,7 +1,4 @@
-namespace ex04
+public interface IProduto
 {
-    public interface IProduto
-    {
-         public void mostrar();
-    }
+    public void Mostrar();
 }

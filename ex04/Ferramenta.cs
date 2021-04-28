@@ -1,23 +1,21 @@
-namespace ex04
+using System;
+public class Ferramenta : IProduto
 {
-    public class Ferramenta : IProduto
+    public string Nome { get; set; }
+    public float Preço { get; set; }
+    public string Utilidade { get; set; }
+
+    public Ferramenta(string nome, float preço, string utilidade)
     {
-        private string Nome { get; set; }
-        private float Preço { get; set; }
-        public string Utilidade { get; set; }
-        
-        public Ferramenta(string nome, float preço, string utilidade)
-        {
-            Nome = nome;
-            Preço = preço;
-            Utilidade = utilidade;
-        }
-        public void Mostrar()
-        {
-            return $"A sua ferramenta é um(a) majestoso(a) {Nome}.";
-        }
-        
-        
-        
+        Nome = nome;
+        Preço = preço;
+        Utilidade = utilidade;
     }
+    public void Mostrar()
+    {
+        return $"A sua ferramenta é um(a) majestoso(a) {Nome}.";
+    }
+
+
+
 }

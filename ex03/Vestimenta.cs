@@ -10,7 +10,10 @@ namespace ex03
         {
             return Cont;
         }
-        public string ToString(){}
+        public string ToString()
+        {
+            return $"Em tuas vestes, vejo a cor {Cor}; no tecido, o material {Tecido}.";
+        }
         
     }
 }
